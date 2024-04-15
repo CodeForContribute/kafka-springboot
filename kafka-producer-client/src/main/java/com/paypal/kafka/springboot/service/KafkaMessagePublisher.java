@@ -1,5 +1,6 @@
 package com.paypal.kafka.springboot.service;
 
+import com.paypal.kafka.springboot.dto.Customer;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
@@ -29,4 +30,17 @@ public class KafkaMessagePublisher {
         });
     }
 
+    public void sendEvents(Customer customer) {
+        CompletableFuture<SendResult<String,Object>>future = kafkaTemplate.send("radha-madhav-2", customer);
+        //future.get();
+        future.whenComplete((result,err)->{
+            String topic = result.getRecordMetadata().topic();
+            log.info("topic:{}",topic);
+            if (err == null){
+                log.info("Sent message = [{}] with offset = [{}", customer.toString(), result.getRecordMetadata().offset());
+            }else{
+                log.info("Unable to send message =[{}] due to : {}", customer.toString(), err.getMessage());
+            }
+        });
+    }
 }

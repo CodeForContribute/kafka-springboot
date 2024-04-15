@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cf982e2-5ae2-41c2-ad63-6aa2b3bd1daf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paypal/kafka/consumerclient/KafkaConsumerClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paypal/kafka/consumerclient/config/KafkaConsumerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paypal/kafka/consumerclient/consumer/KafkaMessageListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/paypal/kafka/consumerclient/dto/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/paypal/kafka/consumerclient/KafkaConsumerClientApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-producer-client/src/main/java/com/paypal/kafka/springboot/dto/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-producer-client/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-client/src/main/java/com/paypal/kafka/springboot/config/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-producer-client/src/main/java/com/paypal/kafka/springboot/config/KafkaProducerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-client/src/main/java/com/paypal/kafka/springboot/controller/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-producer-client/src/main/java/com/paypal/kafka/springboot/controller/EventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-client/src/main/java/com/paypal/kafka/springboot/service/KafkaMessagePublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-producer-client/src/main/java/com/paypal/kafka/springboot/service/KafkaMessagePublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-producer-client/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +25,9 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -43,11 +36,13 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2f5vHRl3CYi7lDcDxqK1qlNOILD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,8 +51,8 @@
   "keyToString": {
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "15",
-    "RequestMappingsPanelWidth1": "15",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.KafkaConsumerClientApplication (1).executor": "Run",
     "Spring Boot.KafkaConsumerClientApplication.executor": "Run",
@@ -108,7 +103,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713103666796</updated>
-      <workItem from="1713103668150" duration="1816000" />
+      <workItem from="1713103668150" duration="5506000" />
+      <workItem from="1713197345491" duration="105000" />
     </task>
     <servers />
   </component>

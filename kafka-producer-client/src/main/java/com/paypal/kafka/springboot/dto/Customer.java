@@ -1,4 +1,4 @@
-package com.paypal.kafka.consumerclient.dto;
+package com.paypal.kafka.springboot.dto;
 
 import lombok.Data;
 
