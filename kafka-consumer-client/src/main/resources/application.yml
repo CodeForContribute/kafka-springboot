@@ -1,15 +1,16 @@
-spring:
-  kafka:
-    consumer:
-      bootstrap-servers: localhost:9092
-      group-id: radhe-radhe
-      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
-      properties:
-        spring:
-          json:
-            trusted:
-              packages: com.paypal.kafka.springboot.dto
+# the below config is optional when we are going to add the config to java based config class.
+#spring:
+#  kafka:
+#    consumer:
+#      bootstrap-servers: localhost:9092
+#      group-id: radhe-radhe
+#      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+#      properties:
+#        spring:
+#          json:
+#            trusted:
+#              packages: com.paypal.kafka.springboot.dto
 
 server:
   port: 9292

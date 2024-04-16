@@ -17,17 +17,22 @@ public class KafkaMessagePublisher {
     private KafkaTemplate<String,Object>kafkaTemplate;
 
     public void sendMessageToTopic(String message){
-        CompletableFuture<SendResult<String,Object>>future = kafkaTemplate.send("radha-madhav", message);
-        //future.get();
-        future.whenComplete((result,err)->{
-            String topic = result.getRecordMetadata().topic();
-            log.info("topic:{}",topic);
-            if (err == null){
-                log.info("Sent message = [{}] with offset = [{}", message, result.getRecordMetadata().offset());
-            }else{
-                log.info("Unable to send message =[{}] due to : {}", message, err.getMessage());
-            }
-        });
+//        CompletableFuture<SendResult<String,Object>>future = kafkaTemplate.send("radha-madhav", message);
+//        //future.get();
+//        future.whenComplete((result,err)->{
+//            String topic = result.getRecordMetadata().topic();
+//            log.info("topic:{}",topic);
+//            if (err == null){
+//                log.info("Sent message = [{}] with offset = [{}", message, result.getRecordMetadata().offset());
+//            }else{
+//                log.info("Unable to send message =[{}] due to : {}", message, err.getMessage());
+//            }
+//        });
+        this.kafkaTemplate.send("radha-madhav",2,null,"radhe");
+        this.kafkaTemplate.send("radha-madhav",2,null,"krishna");
+        this.kafkaTemplate.send("radha-madhav",3,null,"hare");
+        this.kafkaTemplate.send("radha-madhav",1,null,"madhav");
+
     }
 
     public void sendEvents(Customer customer) {

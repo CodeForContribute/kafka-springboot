@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cf982e2-5ae2-41c2-ad63-6aa2b3bd1daf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../kafka-producer-client/src/main/java/com/paypal/kafka/springboot/dto/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kafka-producer-client/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kafka-producer-client/src/main/java/com/paypal/kafka/springboot/config/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-producer-client/src/main/java/com/paypal/kafka/springboot/config/KafkaProducerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafka-producer-client/src/main/java/com/paypal/kafka/springboot/controller/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-producer-client/src/main/java/com/paypal/kafka/springboot/controller/EventController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../kafka-producer-client/src/main/java/com/paypal/kafka/springboot/service/KafkaMessagePublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-producer-client/src/main/java/com/paypal/kafka/springboot/service/KafkaMessagePublisher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafka-producer-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-producer-client/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-producer-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-producer-client/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +26,10 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -47,33 +48,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.KafkaConsumerClientApplication (1).executor": "Run",
-    "Spring Boot.KafkaConsumerClientApplication.executor": "Run",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.KafkaConsumerClientApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.KafkaConsumerClientApplication.executor&quot;: &quot;Run&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="KafkaConsumerClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="kafka-consumer-client" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.paypal.kafka.consumerclient.KafkaConsumerClientApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.paypal.kafka.springboot.KafkaConsumerClientApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.paypal.kafka.consumerclient.*" />
+          <option name="PATTERN" value="com.paypal.kafka.springboot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,7 +105,8 @@
       <option name="presentableId" value="Default" />
       <updated>1713103666796</updated>
       <workItem from="1713103668150" duration="5506000" />
-      <workItem from="1713197345491" duration="105000" />
+      <workItem from="1713197345491" duration="1823000" />
+      <workItem from="1713243440045" duration="3289000" />
     </task>
     <servers />
   </component>
